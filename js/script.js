@@ -1,9 +1,3 @@
-
-function setup(){
-    let currentUser = sessionStorage.getItem("user");
-    console.log(currentUser);
-}
-
 let form = document.forms["my-form"];
 form.addEventListener("submit", getValues);
 
@@ -38,5 +32,4 @@ document.querySelector(".out code").innerHTML = out;
 
 alert("Hi " + formData.name + ". Thank you for you message");
 
-sessionStorage.setItem("user", formData);
 }
