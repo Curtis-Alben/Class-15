@@ -1,3 +1,5 @@
+console.log("Helloooo CJ")
+
 let form = document.forms["my-form"];
 form.addEventListener("submit", getValues);
 
@@ -32,4 +34,9 @@ document.querySelector(".out code").innerHTML = out;
 
 alert("Hi " + formData.name + ". Thank you for you message");
 
+}
+function PrintGoeieDagSalutationsQwialliam()
+{
+    console.log("Trying to save user name");
+    formData.name;
 }
